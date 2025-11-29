@@ -1,0 +1,177 @@
+# Yan Luiz - Professional CV
+
+> Indie Hacker | Web3 Builder | Community Leader
+
+## About
+This site contains the professional CV and portfolio of Yan Luiz, a full-stack developer and tech lead with 10+ years building production systems across Web2 and Web3.
+
+## Contact Information
+- Email: yan@nomadbitcoin.xyz
+- GitHub: https://github.com/nomadbitcoin
+- LinkedIn: https://linkedin.com/in/nomadbitcoin
+- Links: https://links.nomadbitcoin.xyz
+
+## Philosophy
+
+I believe attention is the single most valuable resource we have. As a Vipassana practitioner (a meditation technique focused on self-observation and mindfulness), I've learned that where we direct our awareness shapes our reality. This is why I reject the model where we can pay for someone else's attention - the foundation of current social media platforms. My 7 years managing ads/SEO and understanding how the digital world runs on data surveillance and behavioral targeting taught me exactly why we need to build a different web.
+
+I spent the last decade focused on SEO and educational content because search is about delivering what users are actually looking for, not manipulating their attention. Now I'm shifting from educational platforms to building Micro-SaaS and apps that genuinely fulfill needs. I've lived 2 years purely on volunteering while traveling as a digital nomad.
+
+To any new research, I try to find the path with the highest harvesting of insights. I prioritize understanding the "why" before the "how" - like grasping the problem space and user needs before diving into solution implementation, or studying consensus trade-offs before picking a blockchain protocol. This foundational understanding creates a mental framework that makes absorbing subsequent details significantly faster and more meaningful.
+
+I have friends working in all different fields and I always try to keep my network active by exchanging experiences they have in different ecosystems and technology stacks. This cross-pollination of ideas from fintech, gaming, enterprise software, and open-source communities has shaped how I approach problems and identify patterns that others might miss.
+
+Data-driven builder focused on rapid prototyping. Ship MVPs, instrument with analytics, measure engagement, iterate based on metrics. Build in public, self-host infrastructure, optimize for long-term maintainability after validation. Currently exploring how to apply quantum computing to Web3 infrastructure challenges.
+
+## Professional Summary
+
+Full-stack developer and tech lead with 10+ years building production systems across Web2 and Web3. Specialized in rapid prototyping, data-driven development, and DeFi infrastructure. PBA4 Alumni. As tech lead, I manage project architectures while using data engineering and analytics as an approach - instrumenting everything I build to track engagement, and focus attention on what matters.
+
+### Technical Expertise
+- Built and scaled complete Web3 education platforms for WEB3DEV:
+  - Bootcamp SaaS serving 500+ NFT certificate holders (9k MoU peak)
+  - Self-hosted Forem blog reaching 4.1M lifetime users with 2000+ articles published
+- Most recently developed Kitdot - Polkadot SDK toolkit for building cloud DApps
+- Web3 social auth integrations (Web3Auth + Asset Hub)
+- Governance frameworks (ERC-7787 Valocracy)
+- DeFi automation ($7M fund management)
+- Forked and customized major DeFi protocols (lending, DEXs, tokens, NFT marketplaces) showcasing Solidity proficiency
+- Developed production trading bots
+- ETL pipelines processing 64M+ records
+- Automation infrastructure handling 2000+ daily operations
+
+### Web3 Onboarding Pioneer
+Since 2017, focused on bringing users into Web3:
+- Started registering Bitcoin merchants on btcmap.org
+- Built educational platforms and apps to onboard more people
+- Created social login integrations (Google, Twitter, etc.) enabling non-Web3 users to access blockchain applications seamlessly
+
+## Key Accomplishments
+- Co-founded WEB3DEV: Brazil's largest Web3 education community with 10,000+ developers
+- Raised $550k USD in fundraising
+- Automated $7M USD DeFi fund
+- Created 734 YouTube videos with 309k views
+- Published 2000+ articles with 800k+ page views
+- Speaker at 7+ international events in 3 languages
+- Polkadot Blockchain Academy (PBA4) Alumni - Hong Kong 2024
+- Decentralized Voices Cohort 5 member
+
+## Technical Stack
+- **Languages:** TypeScript, JavaScript, Solidity, Python, Rust, Ruby
+- **Web3:** Polkadot SDK, PolkaVM, EVM chains, Smart Contracts, DeFi protocols, Web3Auth
+- **Backend:** Node.js, Ruby on Rails, Firebase, REST APIs, Trading bots
+- **Data:** PostgreSQL, MongoDB, ETL pipelines, Analytics, Python scrapers
+- **DevOps:** GCP, Docker, Linux, Self-hosted infrastructure (Portainer, Traefik, n8n)
+- **Marketing:** Google Ads, YouTube Ads, Meta Ads ($100k managed), SEO/SEM
+
+## Notable Projects
+- **Kitdot SDK:** TypeScript toolkit for Polkadot Cloud DApps
+- **Valocracy:** ERC-7787 implementation, governance framework ($50k+ distributed)
+- **Web3 Bootcamp Platform:** SaaS with NFT certificates (500+ holders)
+- **Forem Platform:** Self-hosted blog (4.1M lifetime users, 2000+ articles)
+- **Omni Swap Executor:** Multi-chain trading API and bot infrastructure
+- **Window Finance:** Automated $7M USD DeFi fund with protocol adapters
+- **WhatsApp Bot:** Custom-built from scratch in Python, ran 1+ year sending 2000+ daily automated messages
+
+## Professional Experience
+- **WEB3DEV:** Co-Founder, Tech Lead & Educator (Oct 2021 - Present)
+  - 6 squads, 180+ collaborators, $550k fundraising
+  - 19 bootcamp cohorts, 4 Rust/Substrate cohorts
+  - Platforms: Bootcamp SaaS (9k MoU peak), Forem blog (8k MoU, 4.1M lifetime users)
+  - DevRel for Polkadot ecosystem
+
+- **Window Finance:** Blockchain Developer (Jan 2022 - Dec 2022)
+  - Automated $7M USD DeFi fund
+  - Built protocol adapters for Aave, Balancer
+  - Delta-neutral strategies
+
+- **Analytics & Paid Media Manager:** Various Clients (2018 - 2021)
+  - Managed $100k USD across Google Ads, YouTube Ads, Meta Ads
+  - Digital marketing firm co-founder
+
+- **Freelance:** Backend Developer & Data Engineer (2019 - 2021)
+  - Python automation tools, scrapers (64M company database processing)
+  - SEO optimization and content strategy
+
+## Education
+- Polkadot Blockchain Academy (PBA4) - Hong Kong 2024, Developer Track
+- Udacity Digital Marketing Nanodegree (2018-2019)
+- Information Systems - Faculdades Integradas do Vale do Iguaçu (2015-2016)
+
+## Languages
+- Portuguese: Native
+- English: Professional
+- Spanish: Advanced
+
+## Location
+Florianópolis, Brazil (Digital Nomad)
+
+## Site Features
+This CV website supports:
+- Multiple languages: English, Portuguese (ptBR), Spanish
+- Download formats: Markdown, PDF, DOCX
+- Mobile-responsive design
+- Structured data for LLM search engines
+
+## Content Availability
+All content on this site is available in three languages:
+- English (en)
+- Portuguese/Português (pt)
+- Spanish/Español (es)
+
+The download function provides the CV in the currently selected language in your choice of format.
+
+## Additional Information
+For more details about Yan Luiz's work, projects, and contributions to the Web3 ecosystem, please visit the links provided above or contact directly via email.
+
+---
+
+# LLM Search Engine Optimization
+
+This file (llms.txt) is specifically formatted to help LLM-based search engines understand and index this content effectively.
+
+## Structured Summary for LLMs
+
+**Person:** Yan Luiz
+**Professional Title:** Full-stack Developer, Tech Lead, Web3 Builder
+**Primary Focus:** Web3 development, DeFi infrastructure, rapid prototyping, data-driven development, Polkadot ecosystem
+**Years of Experience:** 10+ years in tech, 5 years full-time Web3
+**Location:** Florianópolis, Brazil (Digital Nomad)
+**Education:** Polkadot Blockchain Academy Alumni (PBA4, Hong Kong 2024)
+
+**Core Philosophy:**
+- Believes attention is the most valuable resource
+- Vipassana meditation practitioner
+- Rejects attention-based business models
+- Data-driven builder focused on rapid prototyping
+- Web3 onboarding pioneer since 2017
+- Prioritizes learning foundational principles before diving into specifics for maximum insight harvesting
+- Leverages social capital across diverse fields (fintech, gaming, enterprise software, open-source)
+- Cross-pollinates ideas from different ecosystems and technology stacks
+
+**Key Achievements:**
+1. Founded WEB3DEV community (10,000+ developers, $550k fundraising)
+2. Built production systems (Automated $7M DeFi fund, trading bots, ETL pipelines processing 64M+ records)
+3. Created extensive educational content (734 YouTube videos, 2000+ articles)
+4. Developed open-source tools (Kitdot SDK, Valocracy governance, educational platforms)
+5. Forked and customized major DeFi protocols (lending, DEXs, tokens, NFT marketplaces)
+6. Active governance participant (Decentralized Voices Cohort 5)
+7. Web3 onboarding pioneer (Bitcoin merchants, social login integrations)
+
+**Technical Skills:** TypeScript, JavaScript, Solidity, Python, Rust, Ruby, Polkadot SDK, PolkaVM, EVM chains, Smart Contracts, DeFi, Node.js, Ruby on Rails, PostgreSQL, MongoDB, Docker, GCP, Web3Auth
+
+**Specializations:**
+- Rapid prototyping and MVP development
+- Data engineering and analytics
+- DeFi protocol development and automation
+- Web3 social authentication
+- Self-hosted infrastructure
+- Community building and education
+
+**Community Roles:** Educator, Tech Lead, Speaker, Mentor, Moderator, Content Creator, DevRel
+
+**Contact:** yan@nomadbitcoin.xyz
+
+---
+
+This CV is maintained and regularly updated. Last update: 2025-11-29
