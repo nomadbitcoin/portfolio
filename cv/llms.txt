@@ -13,15 +13,9 @@ This site contains the professional CV and portfolio of Yan Luiz, a full-stack d
 
 ## Philosophy
 
-I believe attention is the single most valuable resource we have. As a Vipassana practitioner (a meditation technique focused on self-observation and mindfulness), I've learned that where we direct our awareness shapes our reality. This is why I reject the model where we can pay for someone else's attention - the foundation of current social media platforms. My 7 years managing ads/SEO and understanding how the digital world runs on data surveillance and behavioral targeting taught me exactly why we need to build a different web.
+I spent many years in ads and SEO, which showed me how the current web runs on surveillance and attention extraction. That drove me toward education, where I spent the last 5 years creating search-focused onboarding content that delivers what people actually want. Now I am shifting this user-first approach into product development, creating Micro SaaS and apps that solve real needs.
 
-I spent the last decade focused on SEO and educational content because search is about delivering what users are actually looking for, not manipulating their attention. Now I'm shifting from educational platforms to building Micro-SaaS and apps that genuinely fulfill needs. I've lived 2 years purely on volunteering while traveling as a digital nomad.
-
-To any new research, I try to find the path with the highest harvesting of insights. I prioritize understanding the "why" before the "how" - like grasping the problem space and user needs before diving into solution implementation, or studying consensus trade-offs before picking a blockchain protocol. This foundational understanding creates a mental framework that makes absorbing subsequent details significantly faster and more meaningful.
-
-I have friends working in all different fields and I always try to keep my network active by exchanging experiences they have in different ecosystems and technology stacks. This cross-pollination of ideas from fintech, gaming, enterprise software, and open-source communities has shaped how I approach problems and identify patterns that others might miss.
-
-Data-driven builder focused on rapid prototyping. Ship MVPs, instrument with analytics, measure engagement, iterate based on metrics. Build in public, self-host infrastructure, optimize for long-term maintainability after validation. Currently exploring how to apply quantum computing to Web3 infrastructure challenges.
+I lived two years volunteering while traveling, which shaped my view of work as purpose. I keep an active network across different tech and crypto ecosystems to broaden my perspective. I see attention as our most valuable resource and practice Vipassana to stay grounded in awareness. I am in crypto because I believe the web needs a new foundation based on user sovereignty rather than surveillance and manipulation.
 
 ## Professional Summary
 
@@ -57,24 +51,28 @@ Since 2017, focused on bringing users into Web3:
 - Decentralized Voices Cohort 5 member
 
 ## Technical Stack
-- **Languages:** TypeScript, JavaScript, Solidity, Python, Rust, Ruby
+- **Languages:** TypeScript, JavaScript, Solidity, Python, Rust
 - **Web3:** Polkadot SDK, PolkaVM, EVM chains, Smart Contracts, DeFi protocols, Web3Auth
 - **Backend:** Node.js, Ruby on Rails, Firebase, REST APIs, Trading bots
 - **Data:** PostgreSQL, MongoDB, ETL pipelines, Analytics, Python scrapers
 - **DevOps:** GCP, Docker, Linux, Self-hosted infrastructure (Portainer, Traefik, n8n)
-- **Marketing:** Google Ads, YouTube Ads, Meta Ads ($100k managed), SEO/SEM
+- **Marketing:** Google Ads, YouTube Ads, Meta Ads, SEO/SEM
 
 ## Notable Projects
 - **Kitdot SDK:** TypeScript toolkit for Polkadot Cloud DApps
 - **Valocracy:** ERC-7787 implementation, governance framework ($50k+ distributed)
 - **Web3 Bootcamp Platform:** SaaS with NFT certificates (500+ holders)
+- **Solidity YouTube Tutorial:** Video tutorial series teaching Solidity (19 stars)
+- **Rust State Machine:** Building Polkadot SDK-like state machine from scratch (8 stars)
+- **Blockchain Comparison:** Comprehensive comparison of blockchain platforms (4 stars)
 - **Forem Platform:** Self-hosted blog (4.1M lifetime users, 2000+ articles)
+- **CryptoPrism:** Market intelligence platform with Weekly YouTube Trends and Monthly Influencers Trends modules
 - **Omni Swap Executor:** Multi-chain trading API and bot infrastructure
 - **Window Finance:** Automated $7M USD DeFi fund with protocol adapters
 - **WhatsApp Bot:** Custom-built from scratch in Python, ran 1+ year sending 2000+ daily automated messages
 
 ## Professional Experience
-- **WEB3DEV:** Co-Founder, Tech Lead & Educator (Oct 2021 - Present)
+- **WEB3DEV:** Co-Founder, Tech Lead & Educator (Oct 2021 - Aug 2025)
   - 6 squads, 180+ collaborators, $550k fundraising
   - 19 bootcamp cohorts, 4 Rust/Substrate cohorts
   - Platforms: Bootcamp SaaS (9k MoU peak), Forem blog (8k MoU, 4.1M lifetime users)
@@ -97,6 +95,7 @@ Since 2017, focused on bringing users into Web3:
 - Polkadot Blockchain Academy (PBA4) - Hong Kong 2024, Developer Track
 - Udacity Digital Marketing Nanodegree (2018-2019)
 - Information Systems - Faculdades Integradas do Vale do Iguaçu (2015-2016)
+- Certifications: Machine Learning (Azure), REST APIs, Git, Containers, Bootstrap, and a few others
 
 ## Languages
 - Portuguese: Native

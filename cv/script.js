@@ -10,15 +10,9 @@ const cvContent = {
 
 ## Philosophy
 
-I believe attention is the single most valuable resource we have. As a Vipassana practitioner (a meditation technique focused on self-observation and mindfulness), I've learned that where we direct our awareness shapes our reality. This is why I reject the model where we can pay for someone else's attention - the foundation of current social media platforms. My 7 years managing ads/seo and understanding how the digital world runs on data surveillance and behavioral targeting taught me exactly why we need to build a different web.
+I spent many years in ads and SEO, which showed me how the current web runs on surveillance and attention extraction. That drove me toward education, where I spent the last 5 years creating search-focused onboarding content that delivers what people actually want. Now I am shifting this user-first approach into product development, creating Micro SaaS and apps that solve real needs.
 
-I spent the last decade focused on SEO and educational content because search is about delivering what users are actually looking for, not manipulating their attention. Now I'm shifting from educational platforms to building Micro-SaaS and apps that genuinely fulfill needs. I've lived 2 years purely on volunteering while traveling as a digital nomad.
-
-To any new research, I try to find the path with the highest harvesting of insights. I prioritize understanding the "why" before the "how" - like grasping the problem space and user needs before diving into solution implementation, or studying consensus trade-offs before picking a blockchain protocol. This foundational understanding creates a mental framework that makes absorbing subsequent details significantly faster and more meaningful.
-
-I have friends working in all different fields and I always try to keep my network active by exchanging experiences they have in different ecosystems and technology stacks. This cross-pollination of ideas from fintech, gaming, enterprise software, and open-source communities has shaped how I approach problems and identify patterns that others might miss.
-
-Data-driven builder focused on rapid prototyping. Ship MVPs, instrument with analytics, measure engagement, iterate based on metrics. Build in public, self-host infrastructure, optimize for long-term maintainability after validation. Currently exploring how to apply [quantum computing](https://github.com/nomadbitcoin/learning-quantum-computing) to Web3 infrastructure challenges.
+I lived two years volunteering while traveling, which shaped my view of work as purpose. I keep an active network across different tech and crypto ecosystems to broaden my perspective. I see attention as our most valuable resource and practice Vipassana to stay grounded in awareness. I am in crypto because I believe the web needs a new foundation based on user sovereignty rather than surveillance and manipulation.
 
 ---
 
@@ -26,21 +20,24 @@ Data-driven builder focused on rapid prototyping. Ship MVPs, instrument with ana
 
 Full-stack developer and tech lead with 10+ years building production systems across Web2 and Web3. Specialized in rapid prototyping, data-driven development, and DeFi infrastructure. PBA4 Alumni. As tech lead, I manage project architectures while using data engineering and analytics as an approach - instrumenting everything I build to track engagement, and focus attention on what matters.
 
-**Technical Expertise:** Built and scaled complete Web3 education platforms for WEB3DEV - a bootcamp SaaS serving 500+ NFT certificate holders (9k MoU peak) and a self-hosted Forem blog reaching 4.1M lifetime users with 2000+ articles published. Most recently developed [Kitdot](https://kitdot.dev), a Polkadot SDK toolkit for building cloud DApps. Additional experience includes Web3 social auth integrations (Web3Auth + Asset Hub), governance frameworks (ERC-7787 [Valocracy](https://valocracy.xyz/)), DeFi automation ($7M fund management), forks of major DeFi protocols (lending, DEXs, tokens, NFT marketplaces) showcasing Solidity proficiency, production trading bots, ETL pipelines processing 64M+ records, and automation infrastructure handling 2000+ daily operations.
+**Technical Expertise:** Built and scaled complete Web3 education platforms for WEB3DEV - a bootcamp SaaS serving 500+ NFT certificate holders (9k MoU peak) and a self-hosted Forem blog reaching 4.1M lifetime users with 2000+ articles published. Most recently developed Kitdot, a Polkadot SDK toolkit for building cloud DApps. Additional experience includes Web3 social auth integrations (Web3Auth + Asset Hub), governance frameworks (ERC-7787 Valocracy), DeFi automation ($7M fund management), forks of major DeFi protocols (lending, DEXs, tokens, NFT marketplaces) showcasing Solidity proficiency, production trading bots, ETL pipelines processing 64M+ records, and automation infrastructure handling 2000+ daily operations.
 
-**Web3 Onboarding Pioneer:** Since 2017, focused on bringing users into Web3 - started registering Bitcoin merchants on [btcmap.org](https://btcmap.org/), built educational platforms and apps to onboard more people, and recently created social login integrations (Google, Twitter, etc.) enabling non-Web3 users to access blockchain applications seamlessly.
+**Web3 Onboarding Pioneer:** Since 2017, focused on bringing users into Web3 - started registering Bitcoin merchants on btcmap.org, built educational platforms and apps to onboard more people, and recently created social login integrations (Google, Twitter, etc.) enabling non-Web3 users to access blockchain applications seamlessly.
 
-**Recent:** Latin Hack & Sub0 DevRel, Softlaw marketplace contracts, community technical education.
+**Recent:** Latin Hack & Sub0 DevRel, community technical education.
 
 ---
 
 ## Key Projects
 
-### Education & Community (80+ stars)
+### Education & Community (160+ stars)
 - **[Buildspace Projects](https://github.com/w3b3d3v/buildspace-projects)** - Web3 educational tutorials (80⭐)
 - **[Web3 Bootcamp Platform](https://github.com/w3b3d3v/web3-bootcamp-platform)** - SaaS with NFT certificates, 500+ holders, 9k MoU peak (53⭐)
-- **[Forem Platform](https://github.com/w3b3d3v/forem)** - Self-hosted blog, 8k MoU, 4.1M lifetime users, 2000+ articles, Web3 adaptations in Ruby (3⭐)
 - **[Gitbook Solidity](https://github.com/w3b3d3v/gitbook-solidity)** - Portuguese Solidity documentation (50⭐)
+- **[Solidity YouTube Tutorial](https://github.com/nomadbitcoin/solidity-youtube)** - Video tutorial series teaching Solidity with supplementary code examples (19⭐)
+- **[Rust State Machine](https://github.com/w3b3d3v/rust-state-machine)** - Educational project building a Polkadot SDK-like state machine from scratch in Rust (8⭐)
+- **[Blockchain Comparison](https://github.com/w3b3d3v/blockchain-comparison)** - Comprehensive comparison of blockchain platforms and ecosystems (4⭐)
+- **[Forem Platform](https://github.com/w3b3d3v/forem)** - Self-hosted blog, 8k MoU, 4.1M lifetime users, 2000+ articles, Web3 adaptations in Ruby (3⭐)
 
 ### Developer Tools & Infrastructure
 - **[Kitdot SDK](https://forum.polkadot.network/t/kitdot-build-web2-like-apps-on-polkadot)** - TypeScript toolkit for Polkadot Cloud DApps
@@ -53,22 +50,22 @@ Full-stack developer and tech lead with 10+ years building production systems ac
 - **[DAO App Web3Dev](https://github.com/w3b3d3v/dao-app-web3dev)** - Governance application (16⭐)
 
 ### Data Engineering & Analytics
-- **CryptoPrism** - Market intelligence platform with real-time aggregation
-- **Scrapers Suite** - ETL pipelines for Web3 data. Notable: processed 64M Brazilian companies from government database for public data analytics
-- **YouTube/Community Analytics** - Trend analysis, engagement tracking, content intelligence
+- **[CryptoPrism](https://github.com/w3b3d3v/crypto-prism)** - Market intelligence platform with real-time aggregation. Includes [Weekly YouTube Trends](https://github.com/w3b3d3v/weekly-youtube-trends) and [Monthly Influencers Trends](https://github.com/w3b3d3v/monthly-influencers-trends) analytics modules
+- **[Scrapers Suite](https://github.com/w3b3d3v/scrapers)** - ETL pipelines for Web3 data. Notable: processed 64M Brazilian companies from government database for public data analytics
+- **[YouTube/Community Analytics](https://github.com/w3b3d3v/youtube-analytics)** - Trend analysis, engagement tracking, content intelligence
 - **WhatsApp Bot** - Custom-built from scratch in Python, ran 1+ year sending 2000+ daily automated messages to userbase
 
 ### Production Systems & DeFi Infrastructure
 - **[Omni Swap Executor](https://github.com/nomadbitcoin/omni-swap-executor)** - Multi-chain trading API (1inch aggregator), production trading bot infrastructure
 - **Window Finance Automation** - Automated $7M USD DeFi fund with protocol adapters (Aave, Balancer), delta-neutral strategies
-- **KappaSigmaMu** - Automated workflows with TypeScript
-- **Softlaw Marketplace** - NFT marketplace contracts (in progress)
+- **[KappaSigmaMu](https://github.com/nomadbitcoin/kappasigmamu.github.io)** - Automated workflows with TypeScript
+- **[Softlaw Marketplace](https://github.com/nomadbitcoin/softlaw-marketplace-contracts)** - NFT marketplace contracts (in progress)
 
 ---
 
 ## Experience
 
-**WEB3DEV** | Co-Founder, Tech Lead & Educator | Oct 2021 - Present
+**WEB3DEV** | Co-Founder, Tech Lead & Educator | Oct 2021 - Aug 2025
 
 Built and scaled Brazil's largest Web3 education community from scratch:
 - **Organization:** 6 squads, 180+ collaborators, $550k USD fundraising
@@ -110,12 +107,12 @@ Built Python automation tools, scrapers (including 64M company database processi
 
 ## Technical Stack
 
-**Languages:** TypeScript, JavaScript, Solidity, Python, Rust, Ruby
+**Languages:** TypeScript, JavaScript, Solidity, Python, Rust
 **Web3:** Polkadot SDK, PolkaVM, EVM chains, Smart Contracts, Web3Auth, DeFi protocols
 **Backend:** Node.js, Ruby on Rails, Firebase, REST APIs, Trading bots
-**Data:** PostgreSQL, MongoDB, Python scrapers, Metabase, ETL pipelines, Public data processing
-**DevOps:** GCP, Docker, Portainer, Traefik, n8n, Evolution API, Linux (Debian/CentOS)
-**Marketing:** Google Ads, YouTube Ads, Meta Ads ($100k managed), SEO/SEM, Google Analytics/GTM
+**Data:** PostgreSQL, MongoDB, Python scrapers, Metabase, ETL pipelines
+**DevOps:** GCP, Docker, Portainer, Traefik, n8n, Linux (Debian/CentOS)
+**Marketing:** Google Ads, YouTube Ads, Meta Ads, SEO/SEM, Google Analytics/GTM
 
 ---
 
@@ -125,7 +122,7 @@ Exploring AI-assisted development and automation to make life easier (and have f
 
 **Coding with AI:**
 - **LLM-assisted development** - Claude Code and AI tools for rapid prototyping
-- **bmad-method** - Architectural planning with AI agents to explore design patterns before writing code
+- **[bmad-method](https://github.com/bmad-code-org/BMAD-METHOD)** - Architectural planning with AI agents to explore design patterns before writing code
 - **Agent-driven architecture** - Let AI agents help map system designs and identify edge cases
 
 **Self-hosted n8n Playground:**
@@ -146,7 +143,7 @@ The goal isn't perfection - it's building small things that save time and experi
 - **Polkadot Blockchain Academy** (PBA4 Alumni) - Hong Kong 2024, Developer Track
 - **Udacity** - Digital Marketing Nanodegree (2018-2019)
 - **Faculdades Integradas do Vale do Iguaçu** - Information Systems (2015-2016)
-- **Certifications:** Machine Learning (Azure), REST APIs, Git, Containers, Bootstrap
+- **Certifications:** Machine Learning (Azure), REST APIs, Git, Containers, Bootstrap, and a few others
 
 ---
 
