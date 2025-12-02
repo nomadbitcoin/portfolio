@@ -309,6 +309,27 @@ body {
     color: var(--text-color);
     text-decoration: underline;
   }
+
+  /* Hide horizontal rules in print/PDF */
+  .cv-content hr {
+    display: none;
+  }
+
+  /* Page break controls - prevent content from being cut horizontally */
+  .cv-content h1,
+  .cv-content h2,
+  .cv-content h3 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Only prevent breaking inside elements, allow natural flow */
+  .cv-content li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
 
 /* Accessibility */

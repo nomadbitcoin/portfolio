@@ -100,7 +100,7 @@ Built Python automation tools, scrapers (including 64M company database processi
 - **Speaker:** Blockchain Rio 2025, UFSC University, Digital Assets Floripa, Sub0 Buenos Aires (3 languages, 7+ events)
 - **Mentor:** 11+ hackathon mentorships
 - **Content Creator:** 734 YouTube videos, technical Twitter threads, governance analysis, 2000+ articles
-- **OpenGov:** Active proposer and consultant ([Referenda #1558](https://polkadot.polkassembly.io/referenda/1558), [Kusama #542](https://kusama.subsquare.io/referenda/542))
+- **OpenGov:** Active proposer and consultant ( [Referenda #1558](https://polkadot.polkassembly.io/referenda/1558), [Kusama #542](https://kusama.subsquare.io/referenda/542) )
 - **DevRel:** Latin Hack (Road to Sub0), Sub0 Buenos Aires
 
 ---
@@ -602,17 +602,232 @@ function downloadMarkdown(content, filename) {
   URL.revokeObjectURL(url);
 }
 
-// Download as PDF
+// Download as PDF using pdfmake
 function downloadPDF(filename) {
-  const element = document.getElementById('cvContent');
-  const opt = {
-    margin: 1,
-    filename: `${filename}.pdf`,
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+  const content = cvContent[currentLang];
+  const docDefinition = markdownToPdfMake(content);
+
+  pdfMake.createPdf(docDefinition).download(`${filename}.pdf`);
+}
+
+// Convert markdown to pdfmake document definition
+function markdownToPdfMake(markdown) {
+  const lines = markdown.split('\n');
+  const content = [];
+  let currentList = null;
+
+  lines.forEach(line => {
+    const trimmedLine = line.trim();
+
+    if (!trimmedLine || trimmedLine === '---') {
+      // Skip empty lines and horizontal rules
+      if (currentList) {
+        content.push(currentList);
+        currentList = null;
+      }
+      return;
+    }
+
+    // H1
+    if (line.startsWith('# ')) {
+      if (currentList) {
+        content.push(currentList);
+        currentList = null;
+      }
+      content.push({
+        text: line.substring(2),
+        style: 'header1',
+        pageBreak: content.length > 0 ? 'before' : undefined
+      });
+    }
+    // H2
+    else if (line.startsWith('## ')) {
+      if (currentList) {
+        content.push(currentList);
+        currentList = null;
+      }
+      content.push({
+        text: line.substring(3),
+        style: 'header2',
+        margin: [0, 15, 0, 5]
+      });
+    }
+    // H3
+    else if (line.startsWith('### ')) {
+      if (currentList) {
+        content.push(currentList);
+        currentList = null;
+      }
+      content.push({
+        text: line.substring(4),
+        style: 'header3',
+        margin: [0, 10, 0, 5]
+      });
+    }
+    // List item
+    else if (line.startsWith('- ')) {
+      const text = parseInlineMarkdown(line.substring(2));
+      if (!currentList) {
+        currentList = {
+          ul: [],
+          margin: [0, 5, 0, 5]
+        };
+      }
+      // Wrap array results to ensure proper inline rendering
+      if (Array.isArray(text)) {
+        currentList.ul.push({ text: text });
+      } else {
+        currentList.ul.push(text);
+      }
+    }
+    // Regular paragraph
+    else if (trimmedLine) {
+      if (currentList) {
+        content.push(currentList);
+        currentList = null;
+      }
+      const text = parseInlineMarkdown(trimmedLine);
+      content.push({
+        text: text,
+        style: 'normal',
+        margin: [0, 5, 0, 5]
+      });
+    }
+  });
+
+  // Add any remaining list
+  if (currentList) {
+    content.push(currentList);
+  }
+
+  return {
+    content: content,
+    styles: {
+      header1: {
+        fontSize: 28,
+        bold: true,
+        margin: [0, 0, 0, 10]
+      },
+      header2: {
+        fontSize: 18,
+        bold: true,
+        color: '#2563eb'
+      },
+      header3: {
+        fontSize: 14,
+        bold: true
+      },
+      normal: {
+        fontSize: 11,
+        lineHeight: 1.3
+      }
+    },
+    defaultStyle: {
+      fontSize: 11,
+      lineHeight: 1.3,
+      font: 'Roboto'
+    },
+    pageSize: 'LETTER',
+    pageMargins: [50, 50, 50, 50]
   };
-  html2pdf().set(opt).from(element).save();
+}
+
+// Parse inline markdown (bold, links, bold links)
+function parseInlineMarkdown(text) {
+  let result = [];
+  let remaining = text;
+
+  // Pattern to match: **[text](url)** or [text](url) or **text** or plain text
+  const patterns = [
+    { regex: /\*\*\[([^\]]+)\]\(([^\)]+)\)\*\*/g, type: 'boldLink' },
+    { regex: /\[([^\]]+)\]\(([^\)]+)\)/g, type: 'link' },
+    { regex: /\*\*([^\*]+)\*\*/g, type: 'bold' }
+  ];
+
+  let allMatches = [];
+
+  // Find all matches
+  patterns.forEach(pattern => {
+    let match;
+    const regex = new RegExp(pattern.regex.source, 'g');
+    while ((match = regex.exec(text)) !== null) {
+      allMatches.push({
+        type: pattern.type,
+        match: match,
+        index: match.index,
+        length: match[0].length
+      });
+    }
+  });
+
+  // Sort matches by index, prioritizing longer matches
+  allMatches.sort((a, b) => {
+    if (a.index !== b.index) return a.index - b.index;
+    return b.length - a.length; // Prefer longer matches
+  });
+
+  // Remove overlapping matches
+  let filteredMatches = [];
+  let coveredRanges = [];
+  allMatches.forEach(item => {
+    const isOverlapping = coveredRanges.some(range =>
+      (item.index >= range.start && item.index < range.end) ||
+      (item.index + item.length > range.start && item.index + item.length <= range.end) ||
+      (item.index <= range.start && item.index + item.length >= range.end)
+    );
+    if (!isOverlapping) {
+      filteredMatches.push(item);
+      coveredRanges.push({ start: item.index, end: item.index + item.length });
+    }
+  });
+
+  let lastIndex = 0;
+  filteredMatches.forEach(item => {
+    // Add text before this match
+    if (item.index > lastIndex) {
+      const plainText = text.substring(lastIndex, item.index);
+      if (plainText) result.push(plainText);
+    }
+
+    // Add the matched element
+    if (item.type === 'boldLink') {
+      result.push({
+        text: item.match[1],
+        link: item.match[2],
+        color: '#2563eb',
+        decoration: 'underline',
+        bold: true
+      });
+    } else if (item.type === 'link') {
+      result.push({
+        text: item.match[1],
+        link: item.match[2],
+        color: '#2563eb',
+        decoration: 'underline'
+      });
+    } else if (item.type === 'bold') {
+      result.push({
+        text: item.match[1],
+        bold: true
+      });
+    }
+
+    lastIndex = item.index + item.length;
+  });
+
+  // Add remaining text
+  if (lastIndex < text.length) {
+    const plainText = text.substring(lastIndex);
+    if (plainText) result.push(plainText);
+  }
+
+  // Return appropriate format
+  if (result.length === 0) {
+    return text;
+  } else if (result.length === 1 && typeof result[0] === 'string') {
+    return result[0];
+  }
+  return result;
 }
 
 // Download as DOCX
